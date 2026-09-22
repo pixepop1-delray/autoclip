@@ -8,15 +8,15 @@
 
 **简体中文** · [English](README-EN.md) · [日本語](README-JA.md) · [한국어](README-KO.md) · [Español](README-ES.md) · [Português](README-PT.md) · [Русский](README-RU.md) · [Français](README-FR.md)
 
-[![GitHub release](https://img.shields.io/github/v/release/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/releases/latest)
-[![GitHub stars](https://img.shields.io/github/stars/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/forks)
-[![GitHub issues](https://img.shields.io/github/issues/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/issues)
-[![License: MIT](https://img.shields.io/github/license/zhouxiaoka/autoclip?style=flat-square)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/pixepop1-delray/autoclip?style=flat-square)](https://github.com/pixepop1-delray/autoclip/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/pixepop1-delray/autoclip?style=flat-square)](https://github.com/pixepop1-delray/autoclip/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/pixepop1-delray/autoclip?style=flat-square)](https://github.com/pixepop1-delray/autoclip/forks)
+[![GitHub issues](https://img.shields.io/github/issues/pixepop1-delray/autoclip?style=flat-square)](https://github.com/pixepop1-delray/autoclip/issues)
+[![License: MIT](https://img.shields.io/github/license/pixepop1-delray/autoclip?style=flat-square)](LICENSE)
 
-[项目网站](https://zhouxiaoka.github.io/autoclip_intro/) · [讨论](https://github.com/zhouxiaoka/autoclip/discussions) · [反馈问题](https://github.com/zhouxiaoka/autoclip/issues)
+[讨论](https://github.com/pixepop1-delray/autoclip/discussions) · [反馈问题](https://github.com/pixepop1-delray/autoclip/issues)
 
-**桌面安装包: [macOS · Apple Silicon](https://github.com/zhouxiaoka/autoclip/releases/latest) · [Windows · x64](https://github.com/zhouxiaoka/autoclip/releases/latest)**
+**桌面安装包: [macOS · Apple Silicon](https://github.com/pixepop1-delray/autoclip/releases/latest) · [Windows · x64](https://github.com/pixepop1-delray/autoclip/releases/latest)**
 
 [安装与第一次出片](docs/USER_INSTALLATION_GUIDE.md) · [完整排错指南](docs/FAQ.md)
 
@@ -61,7 +61,7 @@ v1.3.0 真实 Web 界面：在文件导入区添加本地视频，可同时提�
 
 ### 1. 桌面版
 
-从 [GitHub Releases](https://github.com/zhouxiaoka/autoclip/releases/latest) 下载适合你的安装包：
+从 [GitHub Releases](https://github.com/pixepop1-delray/autoclip/releases/latest) 下载适合你的安装包：
 
 | 平台 | 安装方式 |
 | --- | --- |
@@ -76,7 +76,7 @@ v1.3.0 真实 Web 界面：在文件导入区添加本地视频，可同时提�
 需要 Docker 和 Docker Compose v2。以下命令在仓库根目录执行：
 
 ```bash
-git clone https://github.com/zhouxiaoka/autoclip.git
+git clone https://github.com/pixepop1-delray/autoclip.git
 cd autoclip
 ```
 
@@ -105,7 +105,7 @@ docker compose up -d
 需要 Python 3.10+（建议 3.11）和 PATH 中可用的 FFmpeg。以下安装示例使用 macOS / Linux shell；Windows PowerShell 用 `venv\Scripts\Activate.ps1` 激活虚拟环境。CLI 本地处理不需要 Redis。
 
 ```bash
-git clone https://github.com/zhouxiaoka/autoclip.git
+git clone https://github.com/pixepop1-delray/autoclip.git
 cd autoclip
 python3 -m venv venv
 source venv/bin/activate
@@ -185,7 +185,7 @@ AutoClip 本身仍然免费、开源（MIT）。云端模型由所选服务商�
 
 </details>
 
-[完整排错指南](docs/FAQ.md) · [已知问题](https://github.com/zhouxiaoka/autoclip/issues/96)
+[完整排错指南](docs/FAQ.md) · [已知问题](https://github.com/pixepop1-delray/autoclip/issues/96)
 
 ## 文档
 
@@ -207,14 +207,13 @@ README 提供八种语言；以下深入文档目前以中文为主。README 翻
 
 个人业余维护，回复时间不固定，不提供即时客服或一对一部署服务。联系前请先查看常见问题与已知问题。
 
-想法、用法和模型讨论走 [GitHub Discussions](https://github.com/zhouxiaoka/autoclip/discussions)，不要为此开 Issue。能复现的故障用 [Issue 模板](https://github.com/zhouxiaoka/autoclip/issues/new/choose)。看板规则见 [社区看板](docs/COMMUNITY_BOARD.md)。
+想法、用法和模型讨论走 [GitHub Discussions](https://github.com/pixepop1-delray/autoclip/discussions)，不要为此开 Issue。能复现的故障用 [Issue 模板](https://github.com/pixepop1-delray/autoclip/issues/new/choose)。看板规则见 [社区看板](docs/COMMUNITY_BOARD.md)。
 
-- [欢迎与分类](https://github.com/zhouxiaoka/autoclip/discussions/127)
-- [第一次出片问答](https://github.com/zhouxiaoka/autoclip/discussions/128)
-- [想法](https://github.com/zhouxiaoka/autoclip/discussions/129)
+- [欢迎与分类](https://github.com/pixepop1-delray/autoclip/discussions/127)
+- [第一次出片问答](https://github.com/pixepop1-delray/autoclip/discussions/128)
+- [想法](https://github.com/pixepop1-delray/autoclip/discussions/129)
 
-- 邮箱: [christine_zhouye@163.com](mailto:christine_zhouye@163.com)
 
 感谢 FastAPI、React、Tauri、FFmpeg、yt-dlp、Whisper，以及所有贡献者。项目采用 [MIT License](LICENSE)。如果 AutoClip 帮到了你，欢迎给项目一个 Star。
 
-[![Star History](https://api.star-history.com/svg?repos=zhouxiaoka/autoclip&type=Date)](https://star-history.com/#zhouxiaoka/autoclip&Date)
+[![Star History](https://api.star-history.com/svg?repos=pixepop1-delray/autoclip&type=Date)](https://star-history.com/#pixepop1-delray/autoclip&Date)

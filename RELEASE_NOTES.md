@@ -128,7 +128,7 @@ AutoClip桌面版是基于AI的智能视频切片工具，支持自动识别精�
 #### 获取帮助
 - 查看 [用户指南](docs/USER_GUIDE.md)
 - 阅读 [常见问题](docs/FAQ.md)
-- 提交 [GitHub Issue](https://github.com/zhouxiaoka/autoclip/issues)
+- 提交 [GitHub Issue](https://github.com/pixepop1-delray/autoclip/issues)
 
 ### 🛣️ 未来计划
 
@@ -153,9 +153,9 @@ AutoClip桌面版是基于AI的智能视频切片工具，支持自动识别精�
 
 ---
 
-**下载地址**: [GitHub Releases](https://github.com/zhouxiaoka/autoclip/releases)
+**下载地址**: [GitHub Releases](https://github.com/pixepop1-delray/autoclip/releases)
 
-**项目主页**: [GitHub Repository](https://github.com/zhouxiaoka/autoclip)
+**项目主页**: [GitHub Repository](https://github.com/pixepop1-delray/autoclip)
 
-**问题反馈**: [GitHub Issues](https://github.com/zhouxiaoka/autoclip/issues)
+**问题反馈**: [GitHub Issues](https://github.com/pixepop1-delray/autoclip/issues)
 

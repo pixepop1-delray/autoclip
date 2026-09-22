@@ -130,12 +130,12 @@ export function githubFallbackUrl(draft: FeedbackDraft): string {
       source: '不相关 / N/A',
       what: publicLines(draft),
     })
-    return `https://github.com/zhouxiaoka/autoclip/issues/new?${params}`
+    return `https://github.com/pixepop1-delray/autoclip/issues/new?${params}`
   }
   const params = new URLSearchParams({
     category: draft.category === 'idea' ? 'ideas' : 'q-a',
     title: draft.title,
     body: publicLines(draft),
   })
-  return `https://github.com/zhouxiaoka/autoclip/discussions/new?${params}`
+  return `https://github.com/pixepop1-delray/autoclip/discussions/new?${params}`
 }

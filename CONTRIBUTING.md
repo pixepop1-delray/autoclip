@@ -19,7 +19,7 @@ git clone https://github.com/your-username/autoclip.git
 cd autoclip
 
 # 添加上游仓库
-git remote add upstream https://github.com/zhouxiaoka/autoclip.git
+git remote add upstream https://github.com/pixepop1-delray/autoclip.git
 ```
 
 ### 2. 设置开发环境
@@ -275,7 +275,7 @@ git push origin feature/your-feature-name
 
 ## 想法放哪里
 
-希望 AutoClip 支持什么、你的用法、想要哪个模型，发到 [GitHub Discussions](https://github.com/zhouxiaoka/autoclip/discussions)。
+希望 AutoClip 支持什么、你的用法、想要哪个模型，发到 [GitHub Discussions](https://github.com/pixepop1-delray/autoclip/discussions)。
 能复现的故障用 Issue 里的 bug 模板。已经决定要做的需求才会出现在公开路线图上。
 分类、六列和 Agent 的操作见 [社区看板](docs/COMMUNITY_BOARD.md)。
 
@@ -302,7 +302,6 @@ git push origin feature/your-feature-name
 
 个人业余维护，回复时间不固定。请先查看 [常见问题](docs/FAQ.md)。
 
-邮箱：[christine_zhouye@163.com](mailto:christine_zhouye@163.com)
 
 ## 致谢
 

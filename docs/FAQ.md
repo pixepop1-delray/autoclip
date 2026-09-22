@@ -29,13 +29,13 @@ AutoClip 本身仍然免费、开源（MIT）。云端模型调用由你选择�
 - [The State of Startups in 2026](https://www.youtube.com/watch?v=yslXlV2BP_Y)（Y Combinator）。示例·非托管·自担使用权。
 - [Sam Altman on Astra, AGI, and the future of OpenAI](https://www.youtube.com/watch?v=VeizK1M7V7E)。第三方访谈（Sources Podcast，非 OpenAI 官方频道）。示例·非托管·自担使用权。
 
-准备步骤见 [安装指南 · 自备短样片](USER_INSTALLATION_GUIDE.md#自备短样片)，卡点见 [讨论 #128](https://github.com/zhouxiaoka/autoclip/discussions/128)。
+准备步骤见 [安装指南 · 自备短样片](USER_INSTALLATION_GUIDE.md#自备短样片)，卡点见 [讨论 #128](https://github.com/pixepop1-delray/autoclip/discussions/128)。
 
 ## 安装与启动
 
 ### 应该下载哪个文件？
 
-[Releases](https://github.com/zhouxiaoka/autoclip/releases/latest) 中，Apple Silicon Mac 选 `aarch64.dmg`，Windows x64 选 `x64-setup.exe`。Intel Mac / Linux 使用 Docker 或 CLI。以每次 Release 的实际资产为准，`Source code` 不是桌面安装包。Release 不提供官方样片或成片下载。
+[Releases](https://github.com/pixepop1-delray/autoclip/releases/latest) 中，Apple Silicon Mac 选 `aarch64.dmg`，Windows x64 选 `x64-setup.exe`。Intel Mac / Linux 使用 Docker 或 CLI。以每次 Release 的实际资产为准，`Source code` 不是桌面安装包。Release 不提供官方样片或成片下载。
 
 首次启动的系统提示请参考 [安装指南](USER_INSTALLATION_GUIDE.md) 和对应 Release。Windows 日常运行不需要管理员权限。
 
@@ -77,7 +77,7 @@ autoclip doctor --provider ollama
 autoclip run talk.mp4 --provider ollama --srt talk.srt --min-score 0.5 --json
 ```
 
-把示例文件名和模型选项换成实际配置；没有 SRT 时去掉 `--srt talk.srt` 并确保转写已就绪。降低阈值只影响筛选，不保证一定有片段。第一次验证用自备短片，或先试上文的 [Jackie Dowling | Stanford Energy Fellow](https://www.youtube.com/watch?v=dtmjLzOtx8I)。不必把示例都跑一遍。用法上仍不清楚时，到 [第一次出片问答](https://github.com/zhouxiaoka/autoclip/discussions/128) 讨论。能复现的故障仍开 Issue。
+把示例文件名和模型选项换成实际配置；没有 SRT 时去掉 `--srt talk.srt` 并确保转写已就绪。降低阈值只影响筛选，不保证一定有片段。第一次验证用自备短片，或先试上文的 [Jackie Dowling | Stanford Energy Fellow](https://www.youtube.com/watch?v=dtmjLzOtx8I)。不必把示例都跑一遍。用法上仍不清楚时，到 [第一次出片问答](https://github.com/pixepop1-delray/autoclip/discussions/128) 讨论。能复现的故障仍开 Issue。
 
 ### 处理慢、内存不足怎么办？
 
@@ -120,7 +120,7 @@ autoclip export PROJECT_ID --preset shorts
 
 ### 哪里看已知问题？怎样联系？
 
-先查 [已知问题](https://github.com/zhouxiaoka/autoclip/issues/96) 和 [版本记录](https://github.com/zhouxiaoka/autoclip/releases)。希望增加的能力、用法和模型发到 [Discussions](https://github.com/zhouxiaoka/autoclip/discussions)：[欢迎与分类](https://github.com/zhouxiaoka/autoclip/discussions/127)、[第一次出片问答](https://github.com/zhouxiaoka/autoclip/discussions/128)、[想法](https://github.com/zhouxiaoka/autoclip/discussions/129)。能复现的故障开 Issue。规则见 [社区看板](COMMUNITY_BOARD.md)。仍需联系时，将以下信息一次性发到 [christine_zhouye@163.com](mailto:christine_zhouye@163.com)：
+先查 [已知问题](https://github.com/pixepop1-delray/autoclip/issues/96) 和 [版本记录](https://github.com/pixepop1-delray/autoclip/releases)。希望增加的能力、用法和模型发到 [Discussions](https://github.com/pixepop1-delray/autoclip/discussions)：[欢迎与分类](https://github.com/pixepop1-delray/autoclip/discussions/127)、[第一次出片问答](https://github.com/pixepop1-delray/autoclip/discussions/128)、[想法](https://github.com/pixepop1-delray/autoclip/discussions/129)。能复现的故障开 Issue。规则见 [社区看板](COMMUNITY_BOARD.md)。仍需联系时，请准备以下信息：
 
 - 系统和 CPU 架构、AutoClip 版本、桌面 / Docker / CLI 使用方式。
 - 模型提供商、模型名、视频来源与大致时长、是否提供字幕。

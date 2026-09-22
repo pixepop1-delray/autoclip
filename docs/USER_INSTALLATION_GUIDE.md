@@ -6,8 +6,8 @@
 
 | 环境 | 建议方式 |
 | --- | --- |
-| macOS · Apple Silicon（M 系列） | [下载桌面版](https://github.com/zhouxiaoka/autoclip/releases/latest)，选择名称含 `aarch64` 的 `.dmg` |
-| Windows 10 / 11 · x64 | [下载桌面版](https://github.com/zhouxiaoka/autoclip/releases/latest)，选择名称含 `x64-setup.exe` 的安装包 |
+| macOS · Apple Silicon（M 系列） | [下载桌面版](https://github.com/pixepop1-delray/autoclip/releases/latest)，选择名称含 `aarch64` 的 `.dmg` |
+| Windows 10 / 11 · x64 | [下载桌面版](https://github.com/pixepop1-delray/autoclip/releases/latest)，选择名称含 `x64-setup.exe` 的安装包 |
 | Intel Mac / Linux / 自建服务 | [Docker](../DOCKER.md) 或 [CLI](CLI_AND_MCP.md) |
 
 以 Release 页面实际提供的安装包和系统要求为准。不要把源码压缩包 `Source code` 当作安装包。桌面版内置 Python 和 FFmpeg；本地语言模型、语音转写组件和模型文件需要另外准备。
@@ -51,7 +51,7 @@ AutoClip 不托管官方样片。Release 里没有样片压缩包，也不提供
 
 也可改用你自己的短片。
 
-第一次出片的常见卡点见 [讨论 #128](https://github.com/zhouxiaoka/autoclip/discussions/128)。
+第一次出片的常见卡点见 [讨论 #128](https://github.com/pixepop1-delray/autoclip/discussions/128)。
 
 ## 云端与本地模型
 
@@ -65,7 +65,7 @@ AutoClip 不托管官方样片。Release 里没有样片压缩包，也不提供
 
 ## 更新与备份
 
-关闭正在处理的任务并退出应用，备份数据目录后，从 [Releases](https://github.com/zhouxiaoka/autoclip/releases/latest) 获取新版安装包。v1.3.0 及以前需先手动安装 v1.3.1。自 v1.3.1 起，可在「设置 → 应用 → 检查更新」获取后续版本；确认后下载安装并重启。自动检查最多每天一次，手动下载仍然可用。
+关闭正在处理的任务并退出应用，备份数据目录后，从 [Releases](https://github.com/pixepop1-delray/autoclip/releases/latest) 获取新版安装包。v1.3.0 及以前需先手动安装 v1.3.1。自 v1.3.1 起，可在「设置 → 应用 → 检查更新」获取后续版本；确认后下载安装并重启。自动检查最多每天一次，手动下载仍然可用。
 
 默认桌面数据目录：
 
@@ -79,8 +79,7 @@ AutoClip 不托管官方样片。Release 里没有样片压缩包，也不提供
 
 ## 获取帮助
 
-先看 [常见问题](FAQ.md) 和 [已知问题](https://github.com/zhouxiaoka/autoclip/issues/96)。第一次出片卡住（模型、没有字幕、系统警告）请到 [第一次出片问答](https://github.com/zhouxiaoka/autoclip/discussions/128)。欢迎说明和分类见 [欢迎与分类](https://github.com/zhouxiaoka/autoclip/discussions/127)。仍无法解决时，邮件提供系统、应用版本、模型、失败阶段、复现步骤和已脱敏日志。
+先看 [常见问题](FAQ.md) 和 [已知问题](https://github.com/pixepop1-delray/autoclip/issues/96)。第一次出片卡住（模型、没有字幕、系统警告）请到 [第一次出片问答](https://github.com/pixepop1-delray/autoclip/discussions/128)。欢迎说明和分类见 [欢迎与分类](https://github.com/pixepop1-delray/autoclip/discussions/127)。仍无法解决时，邮件提供系统、应用版本、模型、失败阶段、复现步骤和已脱敏日志。
 
 个人业余维护，回复时间不固定，不提供即时客服或一对一部署服务。
 
-邮箱：[christine_zhouye@163.com](mailto:christine_zhouye@163.com)

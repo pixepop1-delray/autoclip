@@ -158,8 +158,6 @@ AutoClip（以下简称"本软件""我们"）是一款**本地优先**的桌面�
 
 如对本隐私政策或个人信息处理有任何疑问、意见或投诉，请联系：
 
-- 邮箱：**christine95zhouye@gmail.com**
-- 官网：**https://zhouxiaoka.github.io/autoclip_intro/**
 
 ---
 

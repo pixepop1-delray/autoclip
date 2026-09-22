@@ -29,13 +29,13 @@ Other examples are optional. Dialogue is mostly English; official captions or yo
 - [The State of Startups in 2026](https://www.youtube.com/watch?v=yslXlV2BP_Y) (Y Combinator). 示例·非托管·自担使用权.
 - [Sam Altman on Astra, AGI, and the future of OpenAI](https://www.youtube.com/watch?v=VeizK1M7V7E). Sources Podcast, not an OpenAI channel. 示例·非托管·自担使用权.
 
-Setup steps are in the [installation guide](USER_INSTALLATION_GUIDE.en.md#bring-your-own-short-clip); sticking points are in [Discussion #128](https://github.com/zhouxiaoka/autoclip/discussions/128).
+Setup steps are in the [installation guide](USER_INSTALLATION_GUIDE.en.md#bring-your-own-short-clip); sticking points are in [Discussion #128](https://github.com/pixepop1-delray/autoclip/discussions/128).
 
 ## Installation and startup
 
 ### Which file should I download?
 
-In [Releases](https://github.com/zhouxiaoka/autoclip/releases/latest), choose `aarch64.dmg` for Apple Silicon Mac or `x64-setup.exe` for Windows x64. Use Docker or CLI for Intel Mac / Linux. Check the actual release assets; `Source code` is not a desktop installer. Releases do not include an official sample video or finished clips.
+In [Releases](https://github.com/pixepop1-delray/autoclip/releases/latest), choose `aarch64.dmg` for Apple Silicon Mac or `x64-setup.exe` for Windows x64. Use Docker or CLI for Intel Mac / Linux. Check the actual release assets; `Source code` is not a desktop installer. Releases do not include an official sample video or finished clips.
 
 For first-launch system warnings, see the [installation guide](USER_INSTALLATION_GUIDE.en.md) and release notes. Routine Windows use does not require administrator privileges.
 
@@ -77,7 +77,7 @@ autoclip doctor --provider ollama
 autoclip run talk.mp4 --provider ollama --srt talk.srt --min-score 0.5 --json
 ```
 
-Replace the filenames and provider with your actual setup. Without SRT, remove `--srt talk.srt` and prepare transcription first. Lowering the threshold changes selection; it does not guarantee clips. For a first check, use a clip you provide, or try [Jackie Dowling | Stanford Energy Fellow](https://www.youtube.com/watch?v=dtmjLzOtx8I) above. You do not need to run every example. If usage is still unclear, continue in the [first-clip Q&A](https://github.com/zhouxiaoka/autoclip/discussions/128). Reproducible bugs still belong in Issues.
+Replace the filenames and provider with your actual setup. Without SRT, remove `--srt talk.srt` and prepare transcription first. Lowering the threshold changes selection; it does not guarantee clips. For a first check, use a clip you provide, or try [Jackie Dowling | Stanford Energy Fellow](https://www.youtube.com/watch?v=dtmjLzOtx8I) above. You do not need to run every example. If usage is still unclear, continue in the [first-clip Q&A](https://github.com/pixepop1-delray/autoclip/discussions/128). Reproducible bugs still belong in Issues.
 
 ### Why is processing slow or using too much memory?
 
@@ -120,7 +120,7 @@ See the [installation guide](USER_INSTALLATION_GUIDE.en.md) for desktop defaults
 
 ### Where are known issues? How can I get help?
 
-Check [known issues](https://github.com/zhouxiaoka/autoclip/issues/96) and [release notes](https://github.com/zhouxiaoka/autoclip/releases) first. Feature ideas and how you use AutoClip go to [Discussions](https://github.com/zhouxiaoka/autoclip/discussions): [welcome and categories](https://github.com/zhouxiaoka/autoclip/discussions/127), [first-clip Q&A](https://github.com/zhouxiaoka/autoclip/discussions/128), and [ideas](https://github.com/zhouxiaoka/autoclip/discussions/129). Reproducible bugs go to Issues. The board rules are in the [community board](COMMUNITY_BOARD.md) (Chinese). If needed, send one email to [christine_zhouye@163.com](mailto:christine_zhouye@163.com) with:
+Check [known issues](https://github.com/pixepop1-delray/autoclip/issues/96) and [release notes](https://github.com/pixepop1-delray/autoclip/releases) first. Feature ideas and how you use AutoClip go to [Discussions](https://github.com/pixepop1-delray/autoclip/discussions): [welcome and categories](https://github.com/pixepop1-delray/autoclip/discussions/127), [first-clip Q&A](https://github.com/pixepop1-delray/autoclip/discussions/128), and [ideas](https://github.com/pixepop1-delray/autoclip/discussions/129). Reproducible bugs go to Issues. The board rules are in the [community board](COMMUNITY_BOARD.md) (Chinese). If needed, prepare the following information:
 
 - OS and CPU architecture, AutoClip version, and desktop / Docker / CLI mode.
 - Model provider and name, video source and approximate duration, and whether subtitles were supplied.

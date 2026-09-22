@@ -2,7 +2,7 @@
 """
 把官网 index.html 里的版本号 / 下载链接 / 安装包体积同步到主仓库最新（或指定）Release。
 
-    python scripts/sync_release.py            # 取 zhouxiaoka/autoclip 的 latest release
+    python scripts/sync_release.py            # 取 pixepop1-delray/autoclip 的 latest release
     python scripts/sync_release.py v1.3.0     # 指定 tag
     python scripts/sync_release.py --check    # 只报告是否落后，不改文件（退出码 1 = 落后）
 
@@ -26,7 +26,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = ROOT / "index.html"
-REPO = "zhouxiaoka/autoclip"
+REPO = "pixepop1-delray/autoclip"
 ASSETS = {
     "mac": re.compile(r"^AutoClip\.Desktop_(?P<ver>[\d.]+)_aarch64\.dmg$"),
     "win": re.compile(r"^AutoClip\.Desktop_(?P<ver>[\d.]+)_x64-setup\.exe$"),

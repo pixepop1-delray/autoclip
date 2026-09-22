@@ -17,7 +17,7 @@
 
 ## 相关讨论
 
-- https://github.com/zhouxiaoka/autoclip/discussions/编号
+- https://github.com/pixepop1-delray/autoclip/discussions/编号
 
 ## 不做
 

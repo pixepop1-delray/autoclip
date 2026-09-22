@@ -18,8 +18,8 @@
 - [贡献指南](../CONTRIBUTING.md)（中文）
 - [构建指南](../BUILD_GUIDE.md)（中文）
 - [README 翻译与徽章维护](i18n.md)（中文）
-- [更新日志](../CHANGELOG.md) · [发布版本](https://github.com/zhouxiaoka/autoclip/releases)
-- [已知问题](https://github.com/zhouxiaoka/autoclip/issues/96)
+- [更新日志](../CHANGELOG.md) · [发布版本](https://github.com/pixepop1-delray/autoclip/releases)
+- [已知问题](https://github.com/pixepop1-delray/autoclip/issues/96)
 - [社区看板](COMMUNITY_BOARD.md)（Discussions 收想法，Projects 放已确认的路线图）
 
 详细技术文档按需翻译；README 的八种语言不代表应用界面或模型支持的语言范围。下载平台与功能可用性以对应 Release 为准。
@@ -28,4 +28,3 @@
 
 个人业余维护，回复时间不固定。反馈前请先看常见问题与已知问题；邮件请附系统、版本、模型、复现步骤与脱敏日志。
 
-邮箱：[christine_zhouye@163.com](mailto:christine_zhouye@163.com)

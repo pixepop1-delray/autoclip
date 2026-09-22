@@ -594,7 +594,7 @@ const SettingsPage: React.FC = () => {
                   <Btn size="sm" onClick={() => openExternalLink(FEEDBACK_DISCUSSIONS_URL)}>{t("去讨论")}<Icon.External size={12} /></Btn>
                 </Row>
                 <Row label={t("当前状态与已知问题")} hint={t("发版节奏、已知 bug 与解决办法都在这条置顶 Issue 里。")}>
-                  <Btn variant="text" size="sm" onClick={() => openExternalLink('https://github.com/zhouxiaoka/autoclip/issues/96')}>#96 <Icon.External size={12} /></Btn>
+                  <Btn variant="text" size="sm" onClick={() => openExternalLink('https://github.com/pixepop1-delray/autoclip/issues/96')}>#96 <Icon.External size={12} /></Btn>
                 </Row>
               </div>
             </Section>

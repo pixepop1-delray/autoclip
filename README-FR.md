@@ -8,15 +8,15 @@
 
 [简体中文](README.md) · [English](README-EN.md) · [日本語](README-JA.md) · [한국어](README-KO.md) · [Español](README-ES.md) · [Português](README-PT.md) · [Русский](README-RU.md) · **Français**
 
-[![GitHub release](https://img.shields.io/github/v/release/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/releases/latest)
-[![GitHub stars](https://img.shields.io/github/stars/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/forks)
-[![GitHub issues](https://img.shields.io/github/issues/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/issues)
-[![License: MIT](https://img.shields.io/github/license/zhouxiaoka/autoclip?style=flat-square)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/pixepop1-delray/autoclip?style=flat-square)](https://github.com/pixepop1-delray/autoclip/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/pixepop1-delray/autoclip?style=flat-square)](https://github.com/pixepop1-delray/autoclip/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/pixepop1-delray/autoclip?style=flat-square)](https://github.com/pixepop1-delray/autoclip/forks)
+[![GitHub issues](https://img.shields.io/github/issues/pixepop1-delray/autoclip?style=flat-square)](https://github.com/pixepop1-delray/autoclip/issues)
+[![License: MIT](https://img.shields.io/github/license/pixepop1-delray/autoclip?style=flat-square)](LICENSE)
 
-[Site du projet](https://zhouxiaoka.github.io/autoclip_intro/) · [Discussions](https://github.com/zhouxiaoka/autoclip/discussions) · [Signaler un problème](https://github.com/zhouxiaoka/autoclip/issues)
+[Discussions](https://github.com/pixepop1-delray/autoclip/discussions) · [Signaler un problème](https://github.com/pixepop1-delray/autoclip/issues)
 
-**Programmes d’installation: [macOS · Apple Silicon](https://github.com/zhouxiaoka/autoclip/releases/latest) · [Windows · x64](https://github.com/zhouxiaoka/autoclip/releases/latest)**
+**Programmes d’installation: [macOS · Apple Silicon](https://github.com/pixepop1-delray/autoclip/releases/latest) · [Windows · x64](https://github.com/pixepop1-delray/autoclip/releases/latest)**
 
 [Installation et premiers extraits (English)](docs/USER_INSTALLATION_GUIDE.en.md) · [Guide complet de dépannage (anglais)](docs/FAQ.en.md)
 
@@ -61,7 +61,7 @@ Ces badges sont fournis par Trendshift. Cliquez pour consulter les résultats en
 
 ### 1. Application de bureau
 
-Téléchargez le programme d’installation adapté depuis [GitHub Releases](https://github.com/zhouxiaoka/autoclip/releases/latest) :
+Téléchargez le programme d’installation adapté depuis [GitHub Releases](https://github.com/pixepop1-delray/autoclip/releases/latest) :
 
 | Plateforme | Installation |
 | --- | --- |
@@ -76,7 +76,7 @@ Les programmes d’installation incluent Python et FFmpeg. Consultez chaque vers
 Docker et Docker Compose v2 sont nécessaires. Exécutez ces commandes à la racine du dépôt :
 
 ```bash
-git clone https://github.com/zhouxiaoka/autoclip.git
+git clone https://github.com/pixepop1-delray/autoclip.git
 cd autoclip
 ```
 
@@ -105,7 +105,7 @@ docker compose up -d
 Python 3.10 ou supérieur (3.11 recommandé) et FFmpeg dans le PATH sont nécessaires. L’exemple utilise un shell macOS / Linux ; sous Windows PowerShell, activez l’environnement avec `venv\Scripts\Activate.ps1`. Le traitement local par CLI ne nécessite pas Redis.
 
 ```bash
-git clone https://github.com/zhouxiaoka/autoclip.git
+git clone https://github.com/pixepop1-delray/autoclip.git
 cd autoclip
 python3 -m venv venv
 source venv/bin/activate
@@ -178,7 +178,7 @@ L’analyse repose principalement sur les sous-titres : entretiens, podcasts, co
 
 </details>
 
-[Guide complet de dépannage (anglais)](docs/FAQ.en.md) · [Problèmes connus](https://github.com/zhouxiaoka/autoclip/issues/96)
+[Guide complet de dépannage (anglais)](docs/FAQ.en.md) · [Problèmes connus](https://github.com/pixepop1-delray/autoclip/issues/96)
 
 ## Documentation
 
@@ -200,14 +200,13 @@ Les corrections, retours et améliorations des traductions sont les bienvenus. P
 
 Projet maintenu par une personne sur son temps libre. Les délais de réponse varient ; aucune assistance immédiate ou individuelle au déploiement n’est proposée. Consultez la FAQ et les problèmes connus avant de nous contacter.
 
-Les idées, les usages et les demandes de modèles vont dans les [GitHub Discussions](https://github.com/zhouxiaoka/autoclip/discussions). Les bugs reproductibles passent par le [formulaire d’issue](https://github.com/zhouxiaoka/autoclip/issues/new/choose). Règles du tableau : [community board](docs/COMMUNITY_BOARD.md) (en chinois).
+Les idées, les usages et les demandes de modèles vont dans les [GitHub Discussions](https://github.com/pixepop1-delray/autoclip/discussions). Les bugs reproductibles passent par le [formulaire d’issue](https://github.com/pixepop1-delray/autoclip/issues/new/choose). Règles du tableau : [community board](docs/COMMUNITY_BOARD.md) (en chinois).
 
-- [Accueil et catégories](https://github.com/zhouxiaoka/autoclip/discussions/127)
-- [Questions sur le premier extrait](https://github.com/zhouxiaoka/autoclip/discussions/128)
-- [Idées](https://github.com/zhouxiaoka/autoclip/discussions/129)
+- [Accueil et catégories](https://github.com/pixepop1-delray/autoclip/discussions/127)
+- [Questions sur le premier extrait](https://github.com/pixepop1-delray/autoclip/discussions/128)
+- [Idées](https://github.com/pixepop1-delray/autoclip/discussions/129)
 
-- E-mail: [christine_zhouye@163.com](mailto:christine_zhouye@163.com)
 
 Merci à FastAPI, React, Tauri, FFmpeg, yt-dlp, Whisper et à toutes les personnes qui contribuent. Distribué sous [licence MIT](LICENSE). Si AutoClip vous est utile, vous pouvez soutenir le projet avec une étoile.
 
-[![Star History](https://api.star-history.com/svg?repos=zhouxiaoka/autoclip&type=Date)](https://star-history.com/#zhouxiaoka/autoclip&Date)
+[![Star History](https://api.star-history.com/svg?repos=pixepop1-delray/autoclip&type=Date)](https://star-history.com/#pixepop1-delray/autoclip&Date)

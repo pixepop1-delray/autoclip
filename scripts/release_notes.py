@@ -34,7 +34,7 @@ Built-in portable Python + static ffmpeg, nothing to install. macOS build is ad-
 Windows build is unsigned (SmartScreen → More info → Run anyway). If a file is missing, that platform's build failed for this tag — see the Desktop Build workflow run.
 
 ### 反馈 / Feedback
-- 已知问题与当前状态：#96 · 能复现的故障走 [Issue 模板](https://github.com/zhouxiaoka/autoclip/issues/new/choose) · 想法与用法走 [Discussions](https://github.com/zhouxiaoka/autoclip/discussions)
+- 已知问题与当前状态：#96 · 能复现的故障走 [Issue 模板](https://github.com/pixepop1-delray/autoclip/issues/new/choose) · 想法与用法走 [Discussions](https://github.com/pixepop1-delray/autoclip/discussions)
 """
 
 
@@ -57,7 +57,7 @@ def build(tag: str) -> str:
     if section:
         parts.append(section + "\n")
     else:
-        parts.append(f"_CHANGELOG.md 里没有 [{ver}] 段；完整变更见 [CHANGELOG.md](https://github.com/zhouxiaoka/autoclip/blob/main/CHANGELOG.md)。_\n")
+        parts.append(f"_CHANGELOG.md 里没有 [{ver}] 段；完整变更见 [CHANGELOG.md](https://github.com/pixepop1-delray/autoclip/blob/main/CHANGELOG.md)。_\n")
     parts.append(PLATFORM_NOTES.format(ver=ver))
     return "\n".join(parts)
 

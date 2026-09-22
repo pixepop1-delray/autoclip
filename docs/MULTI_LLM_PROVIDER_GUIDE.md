@@ -370,7 +370,7 @@ const providerConfig = {
 
 1. 查看系统日志文件
 2. 检查API提供商官方文档
-3. 查看 [常见问题](FAQ.md)，仍需帮助时邮件联系 [christine_zhouye@163.com](mailto:christine_zhouye@163.com)；个人业余维护，回复时间不固定
+3. 查看 [常见问题](FAQ.md)；个人业余维护，回复时间不固定
 
 ---
 

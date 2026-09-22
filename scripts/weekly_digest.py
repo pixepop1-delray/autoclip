@@ -38,7 +38,7 @@ import urllib.parse
 import urllib.request
 from typing import Any
 
-REPO = os.environ.get("AUTOCLIP_REPO", "zhouxiaoka/autoclip")
+REPO = os.environ.get("AUTOCLIP_REPO", "pixepop1-delray/autoclip")
 POSTHOG_HOST = os.environ.get("POSTHOG_HOST", "https://us.posthog.com").rstrip("/")
 
 CATEGORY_LABEL = {"bug": "出问题了", "idea": "想要功能", "feature": "想要功能", "other": "其他"}

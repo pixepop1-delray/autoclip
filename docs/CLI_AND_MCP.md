@@ -16,7 +16,7 @@
 ## 1. 安装
 
 ```bash
-git clone https://github.com/zhouxiaoka/autoclip.git && cd autoclip
+git clone https://github.com/pixepop1-delray/autoclip.git && cd autoclip
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 pip install -e .            # 得到 autoclip / autoclip-mcp 两个命令

@@ -28,8 +28,8 @@ import {
 } from './feedbackDraft'
 
 export const FEEDBACK_SURVEY_NAME = 'AutoClip 应用内反馈'
-export const FEEDBACK_ISSUES_URL = 'https://github.com/zhouxiaoka/autoclip/issues/new/choose'
-export const FEEDBACK_DISCUSSIONS_URL = 'https://github.com/zhouxiaoka/autoclip/discussions'
+export const FEEDBACK_ISSUES_URL = 'https://github.com/pixepop1-delray/autoclip/issues/new/choose'
+export const FEEDBACK_DISCUSSIONS_URL = 'https://github.com/pixepop1-delray/autoclip/discussions'
 
 const SURVEY_ID_ENV = import.meta.env.VITE_PUBLIC_POSTHOG_FEEDBACK_SURVEY_ID as string | undefined
 

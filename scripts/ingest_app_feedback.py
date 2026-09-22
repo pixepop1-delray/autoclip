@@ -23,7 +23,7 @@ import urllib.error
 import urllib.request
 from typing import Any
 
-REPO = os.environ.get("AUTOCLIP_REPO", "zhouxiaoka/autoclip")
+REPO = os.environ.get("AUTOCLIP_REPO", "pixepop1-delray/autoclip")
 POSTHOG_HOST = os.environ.get("POSTHOG_HOST", "https://us.posthog.com").rstrip("/")
 DEFAULT_PROJECT_ID = "450605"
 MAX_PER_RUN = 20

@@ -8,15 +8,15 @@
 
 [简体中文](README.md) · [English](README-EN.md) · [日本語](README-JA.md) · **한국어** · [Español](README-ES.md) · [Português](README-PT.md) · [Русский](README-RU.md) · [Français](README-FR.md)
 
-[![GitHub release](https://img.shields.io/github/v/release/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/releases/latest)
-[![GitHub stars](https://img.shields.io/github/stars/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/forks)
-[![GitHub issues](https://img.shields.io/github/issues/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/issues)
-[![License: MIT](https://img.shields.io/github/license/zhouxiaoka/autoclip?style=flat-square)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/pixepop1-delray/autoclip?style=flat-square)](https://github.com/pixepop1-delray/autoclip/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/pixepop1-delray/autoclip?style=flat-square)](https://github.com/pixepop1-delray/autoclip/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/pixepop1-delray/autoclip?style=flat-square)](https://github.com/pixepop1-delray/autoclip/forks)
+[![GitHub issues](https://img.shields.io/github/issues/pixepop1-delray/autoclip?style=flat-square)](https://github.com/pixepop1-delray/autoclip/issues)
+[![License: MIT](https://img.shields.io/github/license/pixepop1-delray/autoclip?style=flat-square)](LICENSE)
 
-[웹사이트](https://zhouxiaoka.github.io/autoclip_intro/) · [Discussions](https://github.com/zhouxiaoka/autoclip/discussions) · [문제 신고](https://github.com/zhouxiaoka/autoclip/issues)
+[Discussions](https://github.com/pixepop1-delray/autoclip/discussions) · [문제 신고](https://github.com/pixepop1-delray/autoclip/issues)
 
-**데스크톱 설치 파일: [macOS · Apple Silicon](https://github.com/zhouxiaoka/autoclip/releases/latest) · [Windows · x64](https://github.com/zhouxiaoka/autoclip/releases/latest)**
+**데스크톱 설치 파일: [macOS · Apple Silicon](https://github.com/pixepop1-delray/autoclip/releases/latest) · [Windows · x64](https://github.com/pixepop1-delray/autoclip/releases/latest)**
 
 [설치와 첫 클립 만들기 (English)](docs/USER_INSTALLATION_GUIDE.en.md) · [전체 문제 해결 가이드(영어)](docs/FAQ.en.md)
 
@@ -61,7 +61,7 @@ v1.3.0의 실제 웹 화면입니다. 파일 가져오기 영역에서 로컬 �
 
 ### 1. 데스크톱 앱
 
-[GitHub Releases](https://github.com/zhouxiaoka/autoclip/releases/latest)에서 운영체제에 맞는 설치 파일을 다운로드하세요.
+[GitHub Releases](https://github.com/pixepop1-delray/autoclip/releases/latest)에서 운영체제에 맞는 설치 파일을 다운로드하세요.
 
 | 플랫폼 | 설치 방법 |
 | --- | --- |
@@ -76,7 +76,7 @@ v1.3.0의 실제 웹 화면입니다. 파일 가져오기 영역에서 로컬 �
 Docker와 Docker Compose v2가 필요합니다. 저장소 루트에서 실행하세요.
 
 ```bash
-git clone https://github.com/zhouxiaoka/autoclip.git
+git clone https://github.com/pixepop1-delray/autoclip.git
 cd autoclip
 ```
 
@@ -105,7 +105,7 @@ docker compose up -d
 Python 3.10 이상(3.11 권장)과 PATH에 등록된 FFmpeg가 필요합니다. 아래 예시는 macOS / Linux 셸 기준입니다. Windows PowerShell에서는 `venv\Scripts\Activate.ps1`로 가상 환경을 활성화하세요. CLI 로컬 처리에는 Redis가 필요하지 않습니다.
 
 ```bash
-git clone https://github.com/zhouxiaoka/autoclip.git
+git clone https://github.com/pixepop1-delray/autoclip.git
 cd autoclip
 python3 -m venv venv
 source venv/bin/activate
@@ -178,7 +178,7 @@ AutoClip 자체는 계속 MIT 라이선스의 무료 오픈 소스입니다. 클
 
 </details>
 
-[전체 문제 해결 가이드(영어)](docs/FAQ.en.md) · [알려진 문제](https://github.com/zhouxiaoka/autoclip/issues/96)
+[전체 문제 해결 가이드(영어)](docs/FAQ.en.md) · [알려진 문제](https://github.com/pixepop1-delray/autoclip/issues/96)
 
 ## 문서
 
@@ -200,14 +200,13 @@ README는 8개 언어로 제공되며 아래 상세 문서는 대부분 중국�
 
 개인이 여가 시간에 유지 관리합니다. 답변 시점은 일정하지 않으며 실시간 지원이나 일대일 설치 지원은 제공하지 않습니다. 연락 전에 FAQ와 알려진 문제를 확인해 주세요.
 
-기능 아이디어, 사용 사례, 모델 요청은 [GitHub Discussions](https://github.com/zhouxiaoka/autoclip/discussions)에 올려 주세요. 재현 가능한 버그는 [Issue 템플릿](https://github.com/zhouxiaoka/autoclip/issues/new/choose)을 사용합니다. 규칙은 [커뮤니티 보드](docs/COMMUNITY_BOARD.md)(중국어)에 있습니다.
+기능 아이디어, 사용 사례, 모델 요청은 [GitHub Discussions](https://github.com/pixepop1-delray/autoclip/discussions)에 올려 주세요. 재현 가능한 버그는 [Issue 템플릿](https://github.com/pixepop1-delray/autoclip/issues/new/choose)을 사용합니다. 규칙은 [커뮤니티 보드](docs/COMMUNITY_BOARD.md)(중국어)에 있습니다.
 
-- [안내와 분류](https://github.com/zhouxiaoka/autoclip/discussions/127)
-- [첫 클립 Q&A](https://github.com/zhouxiaoka/autoclip/discussions/128)
-- [아이디어](https://github.com/zhouxiaoka/autoclip/discussions/129)
+- [안내와 분류](https://github.com/pixepop1-delray/autoclip/discussions/127)
+- [첫 클립 Q&A](https://github.com/pixepop1-delray/autoclip/discussions/128)
+- [아이디어](https://github.com/pixepop1-delray/autoclip/discussions/129)
 
-- 이메일: [christine_zhouye@163.com](mailto:christine_zhouye@163.com)
 
 FastAPI, React, Tauri, FFmpeg, yt-dlp, Whisper와 모든 기여자에게 감사드립니다. [MIT License](LICENSE)로 배포됩니다. AutoClip이 도움이 되었다면 Star로 응원해 주세요.
 
-[![Star History](https://api.star-history.com/svg?repos=zhouxiaoka/autoclip&type=Date)](https://star-history.com/#zhouxiaoka/autoclip&Date)
+[![Star History](https://api.star-history.com/svg?repos=pixepop1-delray/autoclip&type=Date)](https://star-history.com/#pixepop1-delray/autoclip&Date)

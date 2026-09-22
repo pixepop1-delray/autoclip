@@ -7,7 +7,7 @@
 ## 首次启动
 
 ```bash
-git clone https://github.com/zhouxiaoka/autoclip.git
+git clone https://github.com/pixepop1-delray/autoclip.git
 cd autoclip
 cp env.example .env
 ```
@@ -122,4 +122,4 @@ docker compose -f docker-compose.dev.yml up -d --build
 docker compose -f docker-compose.dev.yml logs -f
 ```
 
-更多排错见 [FAQ](docs/FAQ.md)，版本变更见 [Releases](https://github.com/zhouxiaoka/autoclip/releases)。
+更多排错见 [FAQ](docs/FAQ.md)，版本变更见 [Releases](https://github.com/pixepop1-delray/autoclip/releases)。

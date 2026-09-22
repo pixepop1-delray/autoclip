@@ -91,7 +91,7 @@ def patch_index(html: str) -> str:
     if 'data-i18n="footer.publish"' not in html:
         html = insert_before(
             html,
-            '      <a href="https://github.com/zhouxiaoka/autoclip" target="_blank" rel="noopener">GitHub</a>',
+            '      <a href="https://github.com/pixepop1-delray/autoclip" target="_blank" rel="noopener">GitHub</a>',
             FOOTER_HTML,
         )
 
